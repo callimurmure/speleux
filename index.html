@@ -512,10 +512,7 @@ Izvēlies vienu no viņiem un sāc savu ceļu:
    &lt;img src=&quot;Images/map8.jpg&quot; alt=&quot;Ceļojuma karte ar iezīmētu Astoto lokāciju&quot; style=&quot;width: 50%;&quot;&gt;
    &lt;&lt;elseif $completedTasks gte 31 and $completedTasks lte 34&gt;&gt;
    &lt;img src=&quot;Images/map9.jpg&quot; alt=&quot;Ceļojuma karte ar iezīmētu Devīto lokāciju&quot; style=&quot;width: 50%;&quot;&gt;
-   &lt;&lt;/if&gt;&gt;
-   &lt;&lt;/if&gt;&gt;
-
-    [[Iziet|Iziet]]</tw-passagedata><tw-passagedata pid="5" name="Lokācija1" tags="" position="100,600" size="100,100">&lt;div class=&quot;hero-wrapper&quot;&gt;
+   &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="Lokācija1" tags="" position="100,600" size="100,100">&lt;div class=&quot;hero-wrapper&quot;&gt;
  &lt;div class=&quot;hero-video&quot;&gt;
  &lt;video width=&quot;500&quot; autoplay loop muted playsinline&gt;
  &lt;source src=&quot;Images/Krogs.mp4&quot; type=&quot;video/mp4&quot;&gt;
@@ -546,18 +543,9 @@ Pirms doties ceļā, varoņiem ir jāizvēlas pa kuru ceļu viņiem jāiet. Vien
 Zemāk ir doti daži no aspektiem, kuriem jāpievērš uzmanība uzsākot projektu. Izvēlies variantu, kas, tavuprāt, vislabāk atspoguļo šo aspektu hierarhiju (augšā - nozīmīgākais aspekts, jo zemāk - jo mazāk nozīmīgs):
 &lt;form id=&quot;taskForm1&quot;&gt;
        &lt;div class=&quot;task-images&quot;&gt;
-           &lt;div class=&quot;task-option&quot;&gt;
-               &lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;
-               &lt;img src=&quot;Atbildes/1_1c.png&quot; alt=&quot;1. variants&quot;&gt;
-           &lt;/div&gt;
-           &lt;div class=&quot;task-option&quot;&gt;
-               &lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;
-               &lt;img src=&quot;Atbildes/1_1b.png&quot; alt=&quot;2. variants&quot;&gt;
-           &lt;/div&gt;
-           &lt;div class=&quot;task-option&quot;&gt;
-               &lt;input type=&quot;radio&quot; id=&quot;option3&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;
-               &lt;img src=&quot;Atbildes/1_1a.png&quot; alt=&quot;3. variants&quot;&gt;
-           &lt;/div&gt;
+           &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;&lt;img src=&quot;Atbildes/1_1c.png&quot; alt=&quot;1. variants&quot;&gt;&lt;/div&gt;
+           &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;&lt;img src=&quot;Atbildes/1_1b.png&quot; alt=&quot;2. variants&quot;&gt;&lt;/div&gt;
+           &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option3&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;&lt;img src=&quot;Atbildes/1_1a.png&quot; alt=&quot;3. variants&quot;&gt;&lt;/div&gt;
        &lt;/div&gt;
        &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
            &lt;&lt;if document.getElementById(&#39;taskForm1&#39;).reportValidity()&gt;&gt;
@@ -584,17 +572,11 @@ Zemāk ir doti daži no aspektiem, kuriem jāpievērš uzmanība uzsākot projek
    &lt;&lt;include &quot;Footer&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="Uzdevums2" tags="" position="100,975" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums2&quot;&gt;&gt;
 Mūsu varoņi izvēlējas ceļu, ko ieteica vietējie iedzīvotāji. Atliek tikai izvēlēties pareizo karti, un, protams, cerēt, ka to nav zīmējis kāds, kam rokas trīc no pārāk daudz alus.
 
-Izvēlies bildi kas palīdz orientēties ātri, bez aizķeršanās, lieki nedomājot.&lt;br&gt;
+Izvēlies bildi kas palīdz orientēties ātri, bez aizķeršanās, lieki nedomājot.
 &lt;form id=&quot;taskForm2&quot;&gt;
     &lt;div class=&quot;task-images&quot;&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;
-            &lt;img src=&quot;Atbildes/1_2a.png&quot; alt=&quot;1. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;
-            &lt;img src=&quot;Atbildes/1_2b.png&quot; alt=&quot;2. variants&quot;&gt;
-        &lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;&lt;img src=&quot;Atbildes/1_2a.png&quot; alt=&quot;1. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;&lt;img src=&quot;Atbildes/1_2b.png&quot; alt=&quot;2. variants&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
         &lt;&lt;if document.getElementById(&#39;taskForm2&#39;).reportValidity()&gt;&gt;
@@ -628,10 +610,9 @@ Ja vēlies uzzināt vairāk par UCD, izlasi šo rakstu &lt;a href=&quot;https://
 &lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
-Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
 Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
-Tev jau ir kopā $score punkti&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums2]]
@@ -640,9 +621,7 @@ Tev jau ir kopā $score punkti&lt;br&gt;
        &lt;span&gt;⭐ Punkti: &lt;strong&gt;$score&lt;/strong&gt;&lt;/span&gt;
        &lt;span&gt;[[Karte]]&lt;/span&gt;
        &lt;span&gt;&lt;a href=&quot;#&quot; onclick=&quot;saveAndExit(); return false;&quot;&gt;Iziet&lt;/a&gt;&lt;/span&gt;
-   &lt;/div&gt;
-
-[[Lokācija2]] [[Lokācija3]] [[Lokācija4]] [[Lokācija5]] [[Lokācija6]] [[Lokācija7]] [[Lokācija8]] [[Lokācija9]] [[Epilogs]]</tw-passagedata><tw-passagedata pid="10" name="Epilogs" tags="" position="1350,600" size="100,100">Un tad tas notika.
+   &lt;/div&gt;</tw-passagedata><tw-passagedata pid="10" name="Epilogs" tags="" position="1350,600" size="100,100">Un tad tas notika.
 Māsters Floviuss, UX Burvis, ar burvju zizli uzvilka gaisā burvju zīmi, kas pēkšņi atklāja visus slēptos navigācijas ceļus.
 &quot;Mēs uzveiksim tevi ar vienkāršību un skaidrību! Un nedaudz zobenu...&quot; Sērs Scrolliuss iesaucās, un viņa balss atbalsojās visā pilī.
 Fraudis uz sava maģiskā kalkulatora zibens ātrumā drukāja kaut kādas formulas.
@@ -699,30 +678,21 @@ Jakoba likums (Jakob’s Law) nosaka, ka lietotāji lielāko daļu laika pavada 
 Ja vēlies uzzināt vairāk par 10 UX likumiem, izlasi šo rakstu &lt;a href=&quot;https://uizard.io/blog/10-laws-of-ux-you-need-to-know&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;10 laws of UX you need to know&lt;/a&gt; (atvērsies jaunā logā).&lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
- Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
- Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums3]]
 &lt;&lt;include &quot;Footer&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="Uzdevums3" tags="" position="100,1225" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums3&quot;&gt;&gt;
 Ceļš izvēlēts, mērķis zināms! Atliek tik aizpildīt varoņu anketu karaļvalsts galvenajā vietnē (jā, arī fantasy pasaulē ir birokrātija).
+
 Izvēlies labāko anketas veidu, lai musu varoņiem nezustu vēlme vispār kaut ko darīt...
 &lt;form id=&quot;taskForm3&quot;&gt;
     &lt;div class=&quot;task-images&quot;&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;
-            &lt;img src=&quot;Atbildes/1_3a.PNG&quot; alt=&quot;1. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;
-            &lt;img src=&quot;Atbildes/1_3b.PNG&quot; alt=&quot;2. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option3&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;
-            &lt;img src=&quot;Atbildes/1_3c.PNG&quot; alt=&quot;3. variants&quot;&gt;
-        &lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;&lt;img src=&quot;Atbildes/1_3a.PNG&quot; alt=&quot;1. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;&lt;img src=&quot;Atbildes/1_3b.PNG&quot; alt=&quot;2. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option3&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;&lt;img src=&quot;Atbildes/1_3c.PNG&quot; alt=&quot;3. variants&quot;&gt; &lt;/div&gt;
     &lt;/div&gt;
     &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
         &lt;&lt;if document.getElementById(&#39;taskForm3&#39;).reportValidity()&gt;&gt;
@@ -761,10 +731,9 @@ Vadies pēc šiem noteikumiem:
 &lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Lokācija2]]
@@ -832,17 +801,11 @@ Pieejamības pakalni atgādina: viss nav tik vienkārši, kā sākumā izskatās
 [[Soļot tālāk pa pakalniem-&gt;Uzdevums7]]
 &lt;&lt;include &quot;Footer&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="Uzdevums4" tags="" position="300,725" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums4&quot;&gt;&gt;
 Purvu var šķersot, kāpjot virsū pareizajām pogām. Uzkāpsi uz nepareizās - jāsāk viss no jauna.
-Kurā bildē ir pareizi izveidotas pogas?&lt;br&gt;
+
+Kurā bildē ir pareizi izveidotas pogas?
 &lt;form id=&quot;taskForm4&quot;&gt;
-    &lt;div class=&quot;task-images&quot;&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;
-            &lt;img src=&quot;Atbildes/2_4a.PNG&quot; alt=&quot;1. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;
-            &lt;img src=&quot;Atbildes/2_4b.PNG&quot; alt=&quot;2. variants&quot;&gt;
-        &lt;/div&gt;
+    &lt;div class=&quot;task-images&quot;&gt;&lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;&lt;img src=&quot;Atbildes/2_4a.PNG&quot; alt=&quot;1. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;&lt;img src=&quot;Atbildes/2_4b.PNG&quot; alt=&quot;2. variants&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
         &lt;&lt;if document.getElementById(&#39;taskForm4&#39;).reportValidity()&gt;&gt;
@@ -866,6 +829,7 @@ Kurā bildē ir pareizi izveidotas pogas?&lt;br&gt;
 
 &lt;&lt;include &quot;Footer&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="20" name="Uzdevums7" tags="" position="425,725" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums7&quot;&gt;&gt;
 Iet pa paklaniem nemaz nav tik viegli, īpaši, ja rokas ir aizņemtas ar dažādu vajadzīgu mantu nešanu. Laikam, jāņem talkā kāds no jocīgajiem dzīvniekiem un jātiek pāri pakalniem jāšus.
+
 Arī interfeisu dažreiz nav tik viegli &quot;izstaigāt&quot; tikai ar peles palīdzību. Jāņem talkā kāds cits &quot;dzīvnieks&quot; - piemēram, tastatūra.
 Kāpēc ir svarīga tastatūras navigācijas nodrošināšana?
 &lt;form id=&quot;taskForm&quot;&gt;
@@ -1023,8 +987,8 @@ Glitchmorts nikni pieceļas un norēc:
 [[Cīnīties ar Glitchmortu-&gt;Uzdevums31]]
 &lt;&lt;include &quot;Footer&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="27" name="Uzdevums13" tags="" position="550,725" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums13&quot;&gt;&gt;
 Ceļinieki nolēma, ka visvienkāršāk ezeru šķērsot ar plostu. Visi devās meklēt materiālus plosta izgatavošanai. Bet, ak, bēda! Viņi sākumā nevienojās kā plostam jāizskatās un no kā to būvēt. Rezultātā katrs atnesa to, ko uzskatīja par labāko. Bet kā lai tagad to visu saliek kopā, lai plosts turētos? Varoņi uzzīmēja plosta shēmu, visu saplānoja un tad gāja otreiz meklēt materiālus.
+
 Kāpēc par vienotu stilu un struktūru jādomā pirms sāk izstrādi?
-&lt;br&gt;
 &lt;form id=&quot;taskForm&quot;&gt;
 &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Tas atvieglo izstrādi, nav lieki jādomā un jātērē laiks
 &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Tas ekonomē naudu
@@ -1066,7 +1030,6 @@ Ceļinieki pienāca pie Vientuļnieka mājiņas un nospieda durvju zvana pogu. B
 Kamēr no mājiņas neiznāca ārkārtīgi noskaities Vientuļnieks: &quot;Cik var trokšņot? Es jau pirmajā reizē labi dzirdēju. Tik neesmu tik jauns, lai atskrietu līdz durvīm vienā sekundē. Ak, tie esat jūs! Gaidīju gaidīju. Nāciet iekšā.&quot;
 
 Kāpēc ceļinieki zvanīja vairākas reizes un satracināja lāga vecīti?
-&lt;br&gt;
 &lt;form id=&quot;taskForm&quot;&gt;
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Jo nesaprata vai zvans strādā
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Jo nevarēja sagaidīt kad tiks atvērtas durvis
@@ -1098,8 +1061,7 @@ Kāpēc ceļinieki zvanīja vairākas reizes un satracināja lāga vecīti?
 </tw-passagedata><tw-passagedata pid="29" name="Uzdevums21" tags="" position="800,725" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums21&quot;&gt;&gt;
 Kuru ceļa norādi izmantot? It kā visas ir pareizas, bet tomēr - kurai uzticēties?
 
-Kura norāde ir ērtākā un vislabāk parāda kur lietotājs atrodās?&lt;br&gt;
-
+Kura norāde ir ērtākā un vislabāk parāda kur lietotājs atrodās?
 &lt;form id=&quot;taskForm&quot;&gt;
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Breadcrumbs 
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Mājas lapas izvēlnē tiek izcelta attiecīgā sadaļa
@@ -1130,11 +1092,10 @@ Kura norāde ir ērtākā un vislabāk parāda kur lietotājs atrodās?&lt;br&gt
 &lt;&lt;include &quot;Footer&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="30" name="Uzdevums24" tags="" position="925,725" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums24&quot;&gt;&gt;
 Lai kur nepaskatītos - visur balts sniegs, kā balta lapa. Un nevar saredzēt nevienu taciņu. Kur tad iet tālāk? Orientēsimies pēc saules?
 
-Bet pēc kā lai orientējās baltā, pilnīgi tukšā meklēšānas rezultātu lapā? Zemāk ir doti trīs ne pārāk labi varianti (godīgi teiksim - briesmīgi) kā noformēt Emty State paziņojumu. Atrodi vissliktāko.
-&lt;br&gt;
+Bet pēc kā lai orientējās baltā, pilnīgi tukšā meklēšānas rezultātu lapā? Zemāk ir doti trīs ne pārāk labi varianti (godīgi teiksim - briesmīgi) kā noformēt Emty State paziņojumu. Atrodi &#39;&#39;VISSLIKTĀKO&#39;&#39;.
 &lt;form id=&quot;taskForm&quot;&gt;
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;  Parādās saraksts ar citu, pilnīgi nesaistītu informāciju (piemēram, populārākajiem produktiem), bet bez paskaidrojumiem. Lietotājs var domāt, ka tie ir meklēšanas rezultāti, lai gan tie nav.
- &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Lapa ar vienīgo uzrakstu &quot;Nav datu&quot;
+ &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Lapa ar vienīgo uzrakstu &quot;Nekas nav atrasts&quot;
   &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt; Tukša balta lapa bez paskaidrojuma, bet augšā ir Breadcrumbs, ka aizvedīs atpakaļ uz iepriekšējo lapu
 &lt;/form&gt;
 &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
@@ -1278,19 +1239,18 @@ Tās ir paredzētas, lai piedāvātu papildu opcijas, bet nekonkurētu ar primā
  Izmanto mazāk uzkrītošu dizainu, piemēram, caurspīdīgu fonu, apmali (outline) vai neitrālākas krāsas (pelēku, melnu vai sekundāro zīmola krāsu). Tas palīdz nodrošināt, ka tā nekonkurē ar primāro pogu.
  
 Tajā pašā laikā: Sekundārās pogas izmēram un stilam jābūt līdzīgam primārajai pogai, bet ar mazāku vizuālo svaru. Tas nodrošina, ka abas pogas izskatās kā daļa no vienas sistēmas, bet primārā poga paliek galvenā.
-&lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
- Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
- Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums5]]
 &lt;&lt;include &quot;Footer&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="35" name="Uzdevums5" tags="" position="300,975" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums5&quot;&gt;&gt;
 Purvs gandrīz iz šķērsots, tagad galvenais nenokļūdīties lasot kartē virzienu. 
-Kurš variants apraksta pareizāko veidu kā parādīt kļūdaini aizpildītus teksta laukus?&lt;br&gt;
+
+Kurš variants apraksta pareizāko veidu kā parādīt kļūdaini aizpildītus teksta laukus?
 &lt;form id=&quot;taskForm&quot;&gt;
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Nospiežot pogu &quot;Saglabāt&quot;, virs visiem ievadlaukiem tiek parādīts labi redzams teksts sarkanā rāmītī ar visu kļūdaini aizpildīto lauku nosaukumiem
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Nospiežot pogu &quot;Saglabāt&quot;, ar sarkanu rāmīti tiek iezīmēti visi tie lauki, kuros ir ievadīta kļūdaina informācija
@@ -1332,26 +1292,19 @@ Un pavisam ideālā pasaulē nevajadzētu pieļaut lietotājam aizpildīt kaut k
 &lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
- Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
- Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums6]]
 &lt;&lt;include &quot;Footer&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="37" name="Uzdevums6" tags="" position="300,1225" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums6&quot;&gt;&gt;
 Tūlīt mūsu varoņi būs ārā no purva! Jāuzlec tik uz pēdējām pareizajām pogām.
-Kurš pogu komplekts ar ikonām ir pareizais?&lt;br&gt;
+
+Kurš pogu komplekts ar ikonām ir pareizais?
 &lt;form id=&quot;taskForm6&quot;&gt;
-    &lt;div class=&quot;task-images&quot;&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;
-            &lt;img src=&quot;Atbildes/2_6b.PNG&quot; alt=&quot;1. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;
-            &lt;img src=&quot;Atbildes/2_6a.PNG&quot; alt=&quot;2. variants&quot;&gt;
-        &lt;/div&gt;
+    &lt;div class=&quot;task-images&quot;&gt;&lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;&lt;img src=&quot;Atbildes/2_6b.PNG&quot; alt=&quot;1. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;&lt;img src=&quot;Atbildes/2_6a.PNG&quot; alt=&quot;2. variants&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
         &lt;&lt;if document.getElementById(&#39;taskForm6&#39;).reportValidity()&gt;&gt;
@@ -1379,10 +1332,9 @@ Kurš pogu komplekts ar ikonām ir pareizais?&lt;br&gt;
 Visām vietnē izmantotām ikonām jābūt vienā stilā. Ikonas stils (pildīta vai outline) un krāsa var atšķirties tikai uz primārās/aktīvās šajā momentā pogas.&lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
- Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
- Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Lokācija3]]
@@ -1390,7 +1342,7 @@ Visām vietnē izmantotām ikonām jābūt vienā stilā. Ikonas stils (pildīta
 Ufffff..... šie pakalni ir nebeidzami! Un saule karsē kā traka! Šis ceļš noteikti nebūtu paveicams ar ieģipsētu kāju. Piekļūstamība te ir vāja...
 
 Lai ceļš pa interfeisu visiem lietotājiem būtu vienlīdz ērts un patīkams, ir izstrādātas dažādas prasības par Piekļūstamību (Accessibility). Visam pamatā ir Web Content Accessibility Guidelines (WCAG) standarts un tiem pakļautie normatīvie akti.
-Bet, kā tev šķiet - ja tiek izstrādāta liela, sarežģīta sistēma, ko izmantos tikai un vienīgi advancēti lietotāji, ar labu redzi, dzirdi, psihisko un fizisko veselību - cik lielā mērā tiek izmantotas prasības par piekļūstamību?&lt;br&gt;
+Bet, kā tev šķiet - ja tiek izstrādāta liela, sarežģīta sistēma, ko izmantos tikai un vienīgi advancēti lietotāji, ar labu redzi, dzirdi, psihisko un fizisko veselību - cik lielā mērā tiek izmantotas prasības par piekļūstamību?
 &lt;form id=&quot;taskForm&quot;&gt;
 &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; WCAG paredz, ka šādos gadījumos, kad viennozīmīgi nepastāv iespējamība, ka sistēmu izmantos cilvēki ar īpašām vajadzībām - Piekļūstamības prasību realizācija ir vēlama, bet ne obligāta (līmenis A)
 &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; WCAG prasības ir realizējamas pilnā apmērā (kā minimums AA līmenis) jebkurā gadījumā
@@ -1420,7 +1372,7 @@ Bet, kā tev šķiet - ja tiek izstrādāta liela, sarežģīta sistēma, ko izm
 
 &lt;&lt;include &quot;Footer&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="40" name="Uzdevums9" tags="" position="425,1225" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums9&quot;&gt;&gt;
 Cik labi, ka starp mūsu varoņiem ir izcils burvis Mstr.Floviuss! Kad ceļiniekiem beidzās ūdens, tad viņš ar vieglu rokas mājienu un burvju vārdiem &quot;Copy! Paste!&quot; no pēdējās ūdens piles uzbūra atkal pilnus traukus. Ceļojums var turpināties.
-Un kā tev veicas ar šo burvestību? Kuros gadījumos lietotājam jāvar nokopēt kaut ko un tad ievietot citur?&lt;br&gt;
+Un kā tev veicas ar šo burvestību? Kuros gadījumos lietotājam jāvar nokopēt kaut ko un tad ievietot citur?
 &lt;form id=&quot;taskForm&quot;&gt;
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Gadījumos, ja tas ir paredzēts klienta prasībās
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Tekstuālu informāciju ekrāna formā lietotājam ir jāvar iezīmēt un/vai kopēt, ja lietotājam ir šīs informācijas labošanas tiesības
@@ -1451,21 +1403,12 @@ Un kā tev veicas ar šo burvestību? Kuros gadījumos lietotājam jāvar nokop�
 &lt;&lt;include &quot;Footer&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="41" name="Uzdevums10" tags="" position="425,1475" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums10&quot;&gt;&gt;
 Kas tas? Pēkšņi nodardēja drausmīgs troksnis, tik stiprs, ka pat zeme zem kājām sašūpojās. Tas ir Glitchmorts. kas pilī rēc, jo ir par kaut ko ļoti neapmierināts. 
 Uz kādu brīdi ceļiniekiem no trokšņa aizkrita ausis, nācās &quot;sarunāties&quot; savā starpā ar žestiem. Tāpēc mēs nevaram citēt viņu domas par Glitchmortu. Iespējams, ka tā pat labāk...
+
 Bet dažreiz tomēr lietotājiem labāk saņemt informāciju ar vārdiem nevis ar bildi: ja bilde nav ielādējusies; ja lietotājs izmanto teksta lasītājus. Kurš no piedāvātajiem variantiem ir pareizākais variants kā noformēt HTML alt atribūtu? 
 &lt;form id=&quot;taskForm10&quot;&gt;
-    &lt;div class=&quot;task-images&quot;&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;
-            &lt;img src=&quot;Atbildes/3_10a.png&quot; alt=&quot;1. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;
-            &lt;img src=&quot;Atbildes/3_10b.png&quot; alt=&quot;2. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option3&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;
-            &lt;img src=&quot;Atbildes/3_10c.png&quot; alt=&quot;3. variants&quot;&gt;
-        &lt;/div&gt;
+    &lt;div class=&quot;task-images&quot;&gt;&lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;&lt;img src=&quot;Atbildes/3_10a.png&quot; alt=&quot;1. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;&lt;img src=&quot;Atbildes/3_10b.png&quot; alt=&quot;2. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option3&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;&lt;img src=&quot;Atbildes/3_10c.png&quot; alt=&quot;3. variants&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
         &lt;&lt;if document.getElementById(&#39;taskForm10&#39;).reportValidity()&gt;&gt;
@@ -1492,8 +1435,8 @@ Bet dažreiz tomēr lietotājiem labāk saņemt informāciju ar vārdiem nevis a
 &lt;&lt;include &quot;Footer&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="42" name="Uzdevums11" tags="" position="425,1725" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums11&quot;&gt;&gt;
 Lēdija Piksela sāka žēloties, ka no tā drausmīgā trokšņa viņai ir sākusies migrēna un viņa vairs nevarot paiet tālāk.
 Fraudis tik saviebās un kaut ko nomurmināja sev zem deguna par &quot;es tak teicu, ka sievietes nevar ņemt līdzi tādā sarežģītā ceļojumā, ko tik neizdomās, lai padžinkstētu...&quot;
+
 Vai tā tiešām ir tikai &quot;džinkstēšana&quot;, jeb troksnis un krāsas var negatīvi ietekmēt lietotāju?
-&lt;br&gt;
 &lt;form id=&quot;taskForm&quot;&gt;
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Mirgošana, spilgtas krāsas, pulsējošas skaņas var izraisīt galvas sāpes un pat epilepsijas lēkmi
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Vietnes izskats un skaņas nevar ietekmēt lietotāju veselību
@@ -1528,21 +1471,10 @@ Jeb tās nav norādes? Jeb tas nav stabs? Kas tad tas īsti ir? Pilnīgi nesapro
 Pēc ilgām pārdomām un strīdiem - tomēr izdevās saprast kas tas ir un kā pareizi nokļūt līdz nākamajam ceļa mērķim. Var turpināt ceļu. Bet Sērs Scrolliuss piedāvāja savest kārtībā šo rādītāju, lai kāds cits ceļinieks neapmaldās.
 
 Kurā attēlā  elements ir noformēts tā, ka to funkcija ir skaidri redzama un nepārprotama?
-
 &lt;form id=&quot;taskForm12&quot;&gt;
-    &lt;div class=&quot;task-images&quot;&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;
-            &lt;img src=&quot;Atbildes/3_12b.png&quot; alt=&quot;1. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;
-            &lt;img src=&quot;Atbildes/3_12a.png&quot; alt=&quot;2. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option3&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;
-            &lt;img src=&quot;Atbildes/3_12c.png&quot; alt=&quot;3. variants&quot;&gt;
-        &lt;/div&gt;
+    &lt;div class=&quot;task-images&quot;&gt;&lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;&lt;img src=&quot;Atbildes/3_12b.png&quot; alt=&quot;1. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;&lt;img src=&quot;Atbildes/3_12a.png&quot; alt=&quot;2. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option3&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;&lt;img src=&quot;Atbildes/3_12c.png&quot; alt=&quot;3. variants&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
         &lt;&lt;if document.getElementById(&#39;taskForm12&#39;).reportValidity()&gt;&gt;
@@ -1571,8 +1503,7 @@ Kurā attēlā  elements ir noformēts tā, ka to funkcija ir skaidri redzama un
 </tw-passagedata><tw-passagedata pid="44" name="Uzdevums28" tags="" position="1050,975" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums28&quot;&gt;&gt;
 Saules brilles bija pat pārāk labas - aptumsoja tā, ka vairs nevar īsti saprast kas kādā krāsā. Labi, ka varoņiem tas īsti nav vajadzīgs. Viņiem galvenais ātri iziet cauri mežam (un te palīdz uzraksti uz stabiem) un tur jau būs Pils!
 
-Kāpēc kritiskā informācija lietotāja saskarnē (piemēram, kļūda vai statusa paziņojums)  tiek kodēta ne tikai ar krāsu, bet arī ar ikonas un/vai teksta palīdzību?&lt;br&gt;
-&lt;form id=&quot;taskForm&quot;&gt;
+Kāpēc kritiskā informācija lietotāja saskarnē (piemēram, kļūda vai statusa paziņojums)  tiek kodēta ne tikai ar krāsu, bet arī ar ikonas un/vai teksta palīdzību?&lt;form id=&quot;taskForm&quot;&gt;
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Tas novērš iespējamību, ka lietotājs informāciju uztvers tikai kā krāsainu reklāmas laukumu
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Tas palīdz ātrāk ielādēt saskarni lēnos tīkla savienojumos, jo ikonas/teksts ir mazākas par lielo krāsainu fonu
   &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;Tas nodrošina, ka informācija ir saprotama lietotājiem ar krāsu redzes traucējumiem
@@ -1606,14 +1537,8 @@ Jo tālāk kalnos - jo nesaprotamākas kļūst ceļa zīmes. Pie katras ir jāpa
 Aspakties divas bildes un padomā kura atspoguļo pareizāku pieeju
 &lt;form id=&quot;taskForm22&quot;&gt;
     &lt;div class=&quot;task-images&quot;&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;
-            &lt;img src=&quot;Atbildes/6_22a.PNG&quot; alt=&quot;1. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;
-            &lt;img src=&quot;Atbildes/6_22b.PNG&quot; alt=&quot;2. variants&quot;&gt;
-        &lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;&lt;img src=&quot;Atbildes/6_22a.PNG&quot; alt=&quot;1. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;&lt;img src=&quot;Atbildes/6_22b.PNG&quot; alt=&quot;2. variants&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
         &lt;&lt;if document.getElementById(&#39;taskForm22&#39;).reportValidity()&gt;&gt;
@@ -1673,7 +1598,6 @@ Kādām ir jābūt pogām mobilajā interfeisā (ja salīdzinam ar desktop versi
 Plosts tika izveidots liels, ērts, drošs!
 
 Kas jāņēm vērā izstrādājot lielas datu tabulas? 
-&lt;br&gt;
 &lt;form id=&quot;taskForm&quot;&gt;
 &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Lielām datu tabulām tiek piemērotas gan piekļūstamības prasības, gan standarta UX/UI prasības, gan vēl papildus specifiskas prasības
 &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Lielām datu tabulām nevar piemērot parastās UX/UI prasības
@@ -1706,21 +1630,11 @@ Kas jāņēm vērā izstrādājot lielas datu tabulas?
 &quot;Labi labi, kaut ko izdomāšu&quot; - jau stipri labākā omā atbildēja Vientuļnieks. Un ieveda ciemiņus viesistabā, kur jau bija sagatavots cienasts un arī gultas vietas.
 
 Kuru no progresa vizualizācijām labāk izmantot, ja progress nav paredzams?
-
 &lt;form id=&quot;taskForm17&quot;&gt;
     &lt;div class=&quot;task-images&quot;&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;
-            &lt;img src=&quot;Atbildes/5_17a.PNG&quot; alt=&quot;1. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;
-            &lt;img src=&quot;Atbildes/5_17b.PNG&quot; alt=&quot;2. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option3&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;
-            &lt;img src=&quot;Atbildes/5_17c.PNG&quot; alt=&quot;3. variants&quot;&gt;
-        &lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;&lt;img src=&quot;Atbildes/5_17a.PNG&quot; alt=&quot;1. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;&lt;img src=&quot;Atbildes/5_17b.PNG&quot; alt=&quot;2. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option3&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;&lt;img src=&quot;Atbildes/5_17c.PNG&quot; alt=&quot;3. variants&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
         &lt;&lt;if document.getElementById(&#39;taskForm17&#39;).reportValidity()&gt;&gt;
@@ -1782,21 +1696,11 @@ Kāds ir galvenais UX ieguvums, ieviešot Progresīvo atklāšanu (Progressive D
 </tw-passagedata><tw-passagedata pid="50" name="Uzdevums18" tags="" position="675,1225" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums18&quot;&gt;&gt;
 Vientuļnieks bija godam pacenties - galds bija pilns ar dažādām garšīgām lietām. Visa kā tik daudz - pat grūti izvēlēties!
 
-Zemāk ir trīs varianti ar izkrītošajiem sarakstiem (dropdown menu). Kurš saraksts NAV pareizs?
+Zemāk ir trīs varianti ar izkrītošajiem sarakstiem (dropdown menu). Kurš saraksts &#39;&#39;NAV&#39;&#39; pareizs?
 &lt;form id=&quot;taskForm18&quot;&gt;
-    &lt;div class=&quot;task-images&quot;&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;
-            &lt;img src=&quot;Atbildes/5_18a.PNG&quot; alt=&quot;1. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;
-            &lt;img src=&quot;Atbildes/5_18b.PNG&quot; alt=&quot;2. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option3&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;
-            &lt;img src=&quot;Atbildes/5_18c.PNG&quot; alt=&quot;3. variants&quot;&gt;
-        &lt;/div&gt;
+    &lt;div class=&quot;task-images&quot;&gt;&lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;&lt;img src=&quot;Atbildes/5_18a.PNG&quot; alt=&quot;1. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;&lt;img src=&quot;Atbildes/5_18b.PNG&quot; alt=&quot;2. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option3&quot; name=&quot;answer&quot; value=&quot;3&quot; required&gt;&lt;img src=&quot;Atbildes/5_18c.PNG&quot; alt=&quot;3. variants&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
         &lt;&lt;if document.getElementById(&#39;taskForm18&#39;).reportValidity()&gt;&gt;
@@ -1826,14 +1730,8 @@ Galds, protams, bija burvju: tas momentā pagatavoja visu, ko vien vēlējies. M
 Kurš no izvēļnu sarakstiem ir pareizāks?
 &lt;form id=&quot;taskForm19&quot;&gt;
     &lt;div class=&quot;task-images&quot;&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;
-            &lt;img src=&quot;Atbildes/5_19a.PNG&quot; alt=&quot;1. variants&quot;&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;task-option&quot;&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;
-            &lt;img src=&quot;Atbildes/5_19b.PNG&quot; alt=&quot;2. variants&quot;&gt;
-        &lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option1&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt;&lt;img src=&quot;Atbildes/5_19a.PNG&quot; alt=&quot;1. variants&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;task-option&quot;&gt;&lt;input type=&quot;radio&quot; id=&quot;option2&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;&lt;img src=&quot;Atbildes/5_19b.PNG&quot; alt=&quot;2. variants&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
         &lt;&lt;if document.getElementById(&#39;taskForm19&#39;).reportValidity()&gt;&gt;
@@ -1888,7 +1786,6 @@ Beidzot visi sasēdās plostā, sanesa savas mantas un devās pāri ezeram.
 &quot;Es gan nesaprotu kas varbūt patīkams šādā ceļošanā&quot; - teica Sērs Scrolliuss, guļot uz vēdera pie pašas plosta malas un ar interesi vērojot zivtiņas ūdenī.
 
 Kam jāpievērš lielāka uzmanība testējot gatavu produktu - tam, ko lietotājs dara vai tam, ko lietotājs saka?
-&lt;br&gt;
 &lt;form id=&quot;taskForm&quot;&gt;
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Primāri pievēršam uzmanību tam, ko lietotājs saka
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt;  Primāri pievēršam uzmanību lietotāja darbībām
@@ -1915,7 +1812,7 @@ Kam jāpievērš lielāka uzmanība testējot gatavu produktu - tam, ko lietotā
 &lt;&lt;include &quot;Footer&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="54" name="Uzdevums23" tags="" position="800,1225" size="100,100">&lt;&lt;set $currentLocation = &quot;Uzdevums23&quot;&gt;&gt;
 Pēkšņi ceļotāju priekšā notika klinšu nobrukums! Labi, ka neviens netika ievainots. Bet nobīties gan visi nobijās. Un tagad nāksies meklēt jaunu ceļu, jo šī taciņa ir pilnībā nobloķēta.
 
-Kuros gadījumos bloķējošais modālais logs ir noderīgs un vērtīgs?&lt;br&gt;
+Kuros gadījumos bloķējošais modālais logs ir noderīgs un vērtīgs?
 &lt;form id=&quot;taskForm&quot;&gt;
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Svarīga palīdzības (Help/FAQ) informācija
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Brīdinājums par profila neatgriezenisku dzēšanu
@@ -1952,7 +1849,7 @@ Un te taciņa vispār izbeidzās! Jāiet meklēt cita.
 
 Kāds ir galvenais mērķis, veidojot labu 404 lapu, kas pilda savu funkciju no lietotāja pieredzes (UX) viedokļa?
 &lt;form id=&quot;taskForm&quot;&gt;
- &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Galvenais mērķis ir parādīt tehnisku kļūdas kodu un atvainošanās paziņojumu, kas ļauj lietotājam saprast, ka vietne ir salūzusi, lai viņš varētu ziņot par problēmu IT komandai.
+ &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Galvenais mērķis ir parādīt tehnisku kļūdas kodu, kas ļauj lietotājam saprast, ka vietne ir salūzusi, lai viņš varētu ziņot par problēmu IT komandai.
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Galvenais mērķis ir paziņot lietotājam, ka lapa neeksistē, un sniegt viņam skaidrus navigācijas ceļus, lai atgrieztos vietnes galvenajā plūsmā.
 &lt;/form&gt;
 &lt;&lt;link &quot;Turpināt&quot;&gt;&gt;
@@ -2014,7 +1911,6 @@ Mežs drīz beigsies, ceļotāji novilka brilles, acis vairs tik ļoti nežilba.
 &quot;Paskaties, tie ir ļoti līdzīgā krāsā kā ziedi mums zem kājām, tāpēc arī nepamanījām&quot; - noteica Mstr.Floviuss.
 
 Kura atbilde vislabāk atspoguļo minimālo krāsu kontrasta attiecību (Contrast Ratio), ko nosaka WCAG AA līmenis (visbiežāk prasītais standarts) parastam teksta saturam (teksts, kas ir mazāks par 18pt vai mazāks par 14pt + bold)?
-&lt;br&gt;
 &lt;form id=&quot;taskForm&quot;&gt;
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Vismaz 7.0:1
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Vismaz 4.5:1
@@ -2051,7 +1947,7 @@ Aiz kokiem jau var redzēt Pili, kura ir ieperinājies Glitchmorts.
 &quot;Vai šie būtu Glitchmorta padotie? Arī zaļi jocīgi radījumi&quot; - pajautāja Sērs Scrolliuss, ar kāju pabakstot lielu zaļu krupi, kas izleca uz celiņa.
 &quot;Nedomāju, ka tagad viss, kas ir zaļā krāsā - noteikti ir uzskatāms par ienaidnieku&quot; - īgni novilka Fraudis, kurš pats bija nedaudz zaļganā nokrāsā.
 
-Kurš apgalvojums vislabāk ilustrē Līdzības likumu (Law of Similarity)?&lt;br&gt;
+Kurš apgalvojums vislabāk ilustrē Līdzības likumu (Law of Similarity)?
 &lt;form id=&quot;taskForm&quot;&gt;
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;1&quot; required&gt; Līdzības likums nosaka, ka mēs uztveram līdzīgus objektus kā vienu grupu vai funkciju. Līdzīgs dizains lietotājam signalizē par prognozējamu uzvedību un samazina izziņas piepūli, jo viņam nav jādomā, ko poga darīs katru reizi, kad tā tiek ieraudzīta.
  &lt;input type=&quot;radio&quot; name=&quot;answer&quot; value=&quot;2&quot; required&gt; Līdzības likums nosaka, ka visiem elementiem vienā vietnē jābūt vienādiem, tas atvieglo uztveri.
@@ -2097,10 +1993,9 @@ Lai interfeiss būtu pieejams ar tastatūru, jāievēro šādi pamatprincipi:
 Ja vēlies uzzināt vairāk par ARIA atribūtiem, izlasi šo rakstu &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Accessible Rich Internet Applications (ARIA)&lt;/a&gt; (atvērsies jaunā logā).&lt;/p&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+  Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums8]]
@@ -2114,10 +2009,9 @@ Piekļūstamības prasības ir attiecināmas uz visiem lietotājiem un visos gad
 Ja vēlies uzzināt vairāk par Piekļūstamību, apmeklē mūsu UX/UI darba grupas izveidoto dokumentu krātuvi. Tā ir izveidota MI rīkā NotebookLM, tādēļ jūs varat ērti lietot šo krātuvi - uzdot jautājumus, veidot īsus aprakstus (pat audio formātā) &lt;a href=&quot;https://notebooklm.google.com/notebook/77942010-7369-4180-ba41-e8b2908e6a47&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lietojamība un piekļūstamība&lt;/a&gt; (atvērsies jaunā logā).&lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
- Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
- Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums9]]
@@ -2130,10 +2024,9 @@ Izstrādājot sistēmu, noteikti jāatcerās, ka jebkuru tekstuālu informāciju
 Svarīgi lai šīs funkcijas tiktu atbalstītas gan izmantojot tastatūras taustiņus, gan peles labo taustiņu, gan izmantojot citus datu ievades palīglīdzekļus (touchpad, touchscreen, pen)&lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+  Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
- Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
- Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums10]]
@@ -2172,10 +2065,9 @@ Nelietojiet frāzes kā &quot;attēls ar&quot; vai &quot;fotogrāfija&quot;, jo 
 Visiem netekstuālajiem elementiem jābūt teksta alternatīvai, izņemot dekoratīvos elementus. Pārliecinieties, ka teksta alternatīvas ir saprotamas un pieejamas ekrāna lasītājiem.
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums11]]
@@ -2198,10 +2090,9 @@ Tas attiecas uz saturu, kas ietver vizuālus vai audio stimulus, kuri var izrais
 * Izvairieties no automātiskas attēlu maiņas.&lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums12]]
@@ -2216,13 +2107,11 @@ Parasti to var panākt ar divām metodēm:
 * Pieturēties pie elementu izskata un izvietojuma, kas ir jau visiem zināms, tiek plaši izmantots. Un te atkal varam atgriezties pie Save ikonas disketes izskatā. Jaunākā paaudze var nezināt kas tur ir attēlots. Un daudzi tiešām vairs nezina! Bet viņiem tas arī nav vajadzīgs - šī ikona ir tā &quot;iegājusies&quot;, ka visi atpazīst, ka tas ir Save. Tādēļ nebūtu labākais variants īpaši izcelties ar inovācijām un censties mainīt to, kas visiem ir zināms. Eksperimentēt var dažādos radošos projektos (bet arī tur šādus jaunus elementus noteikti jādublē ar paskaidrojošiem tekstiem)
 
 Vēl var minēt krāsu uztveri. Jāpieturās pie mums pierastajiem krāsu kodiem. Piemēram, sarkans - stop, aizliegums, bīstams. Zaļš - drošs, uz priekšu! pareizs. Zaļa STOP zīme izraisa lietotājos apjukumu.
-&lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
- Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
- Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Lokācija4]]
@@ -2249,10 +2138,9 @@ UX/UI princips par vienotību ir svarīgs vairāku iemeslu dēļ:
 * Zīmola sajūta: Vienots stils (piemēram, uzņēmuma krāsas) pastiprina lietotāja piesaisti konkrētajam zīmolam, atvieglo to atpazīstamību.&lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+  Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums14]]
@@ -2277,10 +2165,9 @@ Bet viss pārējais: piekļūstamības prasības, UX/UI prasības - viss tiek ie
 * Pievienojiet meklēšanu/filtrēšanu, izcelšanu (hover) un pieejamības atbalstu (lai teksta lasītājs korekti varētu nolasīt tabulas datus)
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums15]]
@@ -2331,10 +2218,9 @@ Labākais veids: Apvienojiet abus:
 &lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
- Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
- Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Lokācija5]]
@@ -2358,12 +2244,10 @@ Princips &quot;uz katru darbību jābūt pretreakcijai&quot; nozīmē, ka sistē
 ** Atgriezeniskajai saitei jābūt ātrai (0,1–1 sekunde), lai lietotājs nejūt aizkavi.
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
-
 [[Turpināt-&gt;Uzdevums17]]
 &lt;&lt;include &quot;Footer&quot;&gt;&gt;
 </tw-passagedata><tw-passagedata pid="69" name="Atbilde17" tags="" position="675,1100" size="100,100">&lt;&lt;set $completedTasks += 1&gt;&gt;
@@ -2394,10 +2278,9 @@ Ko darīt: Ja imports neizdodas (piemēram, nepareizs faila formāts), parādiet
 Pareizā atbilde ir: Rotējošais aplis bez skaidrojumiem, jo nav zināms precīzs progress.
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+  Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums18]]
@@ -2434,10 +2317,9 @@ Piemērs: Datuma filtrā noklusējums ir &quot;Šodien&quot;
 Kāpēc? Tas atbilst lietotāja aktuālajām vajadzībām.
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums19]]
@@ -2458,10 +2340,9 @@ Kā piemērot šo likumu?
 * Pēc iespējas paredzēt iespēju lietotājam pašam pagarināt piešķirto laiku (piemēram, bankas rāda paziņojumu, ka lapa nav aktīva X minūtes, vai vēlaties atjaunot sesiju?)
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums20]]
@@ -2497,10 +2378,9 @@ Galvenā atšķirība:
 Tāpēc Toggle būs pareizāka izvēle šajā gadījumā.
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Lokācija6]]
@@ -2539,13 +2419,11 @@ Kad lietot: Kad lietotājs izmanto filtrus tabulā, piemēram, Sākumlapa &gt; K
 * Vienkāršos interfeisos: Ja tabulai ir tikai viens līmenis (piemēram, tikai klientu saraksts bez detalizētiem skatiem), breadcrumbs nav vajadzīgas.
 * Mobilajās ierīcēs: Ekrāna vietas trūkuma dēļ breadcrumbs var būt neērti; labāk izmantot &quot;Atpakaļ&quot; pogu.
 * Nelineārā navigācijā: Ja lietotājs bieži pārvietojas starp savstarpēji nesaistītām lapām, ceļa breadcrumbs var būt mulsinošs.
-&lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums22]]
@@ -2568,10 +2446,9 @@ Cilvēkiem, kuri izmanto ekrāna lasītājus (piemēram, ar redzes traucējumiem
 
 &lt;&lt;if $isCorrect&gt;&gt;
  &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums23]]
@@ -2600,10 +2477,9 @@ Piemērs: Pēc veidlapas iesniegšanas parādās logs &quot;Kļūda: Lūdzu, iev
 
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Lokācija7]]
@@ -2639,10 +2515,9 @@ Lai neļautu lietotājam &quot;iestigt&quot; strupceļā, piedāvājiet noderīg
 ** Saite uz &quot;Sazinieties ar mums&quot; vai &quot;Palīdzības centrs&quot;.
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums25]]
@@ -2659,10 +2534,9 @@ Un tumšais režīms var pat pasliktināt kontrastu, ja dizaineris izmanto tīri
 &lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums28]]
@@ -2678,10 +2552,9 @@ Pareizā atbilde ir saistīta ar Accessibility. Krāsas dublēšana ar ikonu un/
 Starpcitu, krāsu uztveres traucējumi ir ļoti dažādi (nespēja atšķirt zaļo un sarkano ir biežākā problēma, bet ne vienīgā), lai saprastu kā vietni redz dažādi cilvēki, var izmantot speciālus rīkus, ka imitē redzes problēmas. Piemēram, šis rīks: &lt;a href=&quot;https://www.toptal.com/designers/colorfilter&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Colorblind Web Page Filter&lt;/a&gt; (atvērsies jaunā logā).
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums29]]
@@ -2699,10 +2572,9 @@ Tikai ļoti liels teksts (piemēram, virsraksti) var izmantot zemāku attiecību
 Noderīgs rīks kontrasta pārbaudei: &lt;a href=&quot;https://webaim.org/resources/contrastchecker/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Contrastchecker&lt;/a&gt; (atvērsies jaunā logā).
 &lt;&lt;if $isCorrect&gt;&gt;
  &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums30]]
@@ -2719,10 +2591,9 @@ Runājot par teksta līdzību - teksta saturs, protams, ir svarīgs, taču tieš
 Ja vēlies uzzināt vairāk par Gestalt Principles (t.sk. par The Law of Similarity), izlasi šo rakstu &lt;a href=&quot;https://www.interaction-design.org/literature/article/the-law-of-similarity-gestalt-principles-1?srsltid=AfmBOooxPYQqgmIt27bMs7TD3P9n6lykY-8roI3zNn6fnEfGihURzi4C&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;The Law of Similarity - Gestalt Principles (Part 1)&lt;/a&gt; (atvērsies jaunā logā).&lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Lokācija9]]
@@ -2738,10 +2609,9 @@ Būtība: Ikona piesaista uzmanību, bet teksts apstiprina un skaidro tās funkc
 
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums32]]
@@ -2757,10 +2627,9 @@ Piemēram, ja tiek izmantotas mazāka izmēra pogas (vizuāli redzamais elements
 Savukārt atstarpju lielums starp pogām ir pielāgojams pogu izmēra lielumam (protams, ņemot vērā arī jutīguma laukuma izmēru). Piemēram, jo lielāks ir pogu izmērs, jo mazāka var būt atstarpe starp šīm pogām.
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums33]]
@@ -2778,10 +2647,9 @@ Vai šādi tiek samazināts klikšķu skaits? Tieši pretēji - princips rada pa
 Vai palīdz ātrāk pabeigt attīstības procesu? Nē. Princips neietekmē attīstības ātrumu, bet gan nosaka informācijas parādīšanas secību, lai uzlabotu pieredzi, nevis ignorētu sarežģīto funkcionalitāti.
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Uzdevums34]]
@@ -2818,10 +2686,9 @@ Pārāk lakonisks paziņojums ir mazliet labāks par tukšu lapu, taču tas jopr
 &lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
- Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu un tagad tev ir $score punkti kopā.&lt;br&gt;
+ Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
 &lt;&lt;else&gt;&gt;
-Šoreiz neveicās. Tu nesaņem punktus.&lt;br&gt;
-Tev jau ir kopā $score punkti.&lt;br&gt;
+Šoreiz neveicās. Tu nesaņem punktus&lt;br&gt;
 &lt;&lt;/if&gt;&gt;
 
 [[Turpināt-&gt;Lokācija8]]

@@ -486,6 +486,7 @@ Izvēlies vienu no viņiem un sāc savu ceļu:
           alt=&quot;Sena Fantasy stila karte ar iezīmētu maršrutu no starta līdz spēles beigām&quot; 
           style=&quot;display: block; margin: 0 auto; width: 60%;&quot;&gt;
    [[Sākt ceļojumu -&gt;Lokācija1]]
+
    &lt;&lt;else&gt;&gt;
     &lt;&lt;print $hero&gt;&gt;, tev ir sakrāti punkti: &lt;&lt;print $score&gt;&gt;
      Izpildīti uzdevumi: &lt;&lt;print $completedTasks&gt;&gt;, bet priekšā vēl &lt;&lt;print 34 - $completedTasks&gt;&gt;
@@ -512,7 +513,8 @@ Izvēlies vienu no viņiem un sāc savu ceļu:
    &lt;img src=&quot;Images/map8.jpg&quot; alt=&quot;Ceļojuma karte ar iezīmētu Astoto lokāciju&quot; style=&quot;width: 50%;&quot;&gt;
    &lt;&lt;elseif $completedTasks gte 31 and $completedTasks lte 34&gt;&gt;
    &lt;img src=&quot;Images/map9.jpg&quot; alt=&quot;Ceļojuma karte ar iezīmētu Devīto lokāciju&quot; style=&quot;width: 50%;&quot;&gt;
-   &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="Lokācija1" tags="" position="100,600" size="100,100">&lt;div class=&quot;hero-wrapper&quot;&gt;
+   &lt;&lt;/if&gt;&gt;
+      &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="Lokācija1" tags="" position="100,600" size="100,100">&lt;div class=&quot;hero-wrapper&quot;&gt;
  &lt;div class=&quot;hero-video&quot;&gt;
  &lt;video width=&quot;500&quot; autoplay loop muted playsinline&gt;
  &lt;source src=&quot;Images/Krogs.mp4&quot; type=&quot;video/mp4&quot;&gt;
@@ -728,7 +730,6 @@ Vadies pēc šiem noteikumiem:
 * Sadaliet sarežģītus uzdevumus mazākos soļos, lai samazinātu kognitīvo slodzi.
 * Izvairieties no lietotāju pārslodzes, izceļiet ieteicamās iespējas.
 * Samaziniet izvēles iespējas, ja reakcijas laiks ir kritiski svarīgs, lai palielinātu lēmumu pieņemšanas laiku.
-&lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
  Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
@@ -2215,7 +2216,6 @@ Labākais veids: Apvienojiet abus:
 * Vispirms novērojiet darbības, lai atrastu problēmas.
 * Tad klausieties atsauksmes, lai saprastu vajadzības un vēlmes.
 * Iterējiet: Uzlabojiet prototipu un testējiet atkal.
-&lt;br&gt;
 &lt;&lt;if $isCorrect&gt;&gt;
   &lt;&lt;set $score += 1&gt;&gt;
  Apsveicam, tu atbildēji pareizi! Tu saņēmi 1 punktu&lt;br&gt;
